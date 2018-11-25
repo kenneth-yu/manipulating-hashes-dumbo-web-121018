@@ -1,3 +1,4 @@
+require 'pry'
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -6,8 +7,8 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
-
-  
-
+  groceries.values
+  answer = groceries.values[0].concat groceries.values[1]
+  answer.concat groceries.values[2]
+  answer.concat groceries.values[3]
 end
