@@ -9,9 +9,9 @@ def second_challenge
 
   #code your solution here!
   answer = []
+  binding.pry
   groceries.each do |category, ingredient|
     temp_answer = groceries[category].values
     answer.concat temp_answer
-    binding.pry
-  end
+
 end
