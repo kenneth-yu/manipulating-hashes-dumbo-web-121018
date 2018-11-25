@@ -7,11 +7,5 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
-  answer = []
-  binding.pry
-  groceries.each do |category, ingredient|
-    temp_answer = groceries[category].values
-    answer.concat temp_answer
-  end
+  groceries.value
 end
