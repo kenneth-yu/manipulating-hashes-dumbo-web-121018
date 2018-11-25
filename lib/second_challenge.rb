@@ -10,4 +10,5 @@ def second_challenge
   groceries.values
   answer = groceries.values[0].concat groceries.values[1]
   answer.concat groceries.values[2]
+  answer.concat groceries.values[3]
 end
