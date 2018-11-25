@@ -11,6 +11,4 @@ def second_challenge
   groceries.each do |category, ingredient|
     temp_answer = groceries[category].values
     answer.concat temp_answer
-  
-
 end
