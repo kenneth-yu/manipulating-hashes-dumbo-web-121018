@@ -7,8 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
+  answer = []
   groceries.each do |category, ingredient|
-    groceries[category].values
+    temp_answer = groceries[category].values
+    answer.concat temp_answer
   
 
 end
