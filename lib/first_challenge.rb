@@ -19,7 +19,7 @@ def first_challenge
       if attribute == :favorite_icecream_flavors
         value.each do |flavor|
           # here, each index element in an ice cream flavor string
-          if flavor = "strawberry" 
+          if flavor = "strawberry" && person == "Freddy Mercury"
           
         end
       end
